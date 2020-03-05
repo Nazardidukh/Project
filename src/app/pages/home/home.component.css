@@ -1,0 +1,132 @@
+.home-logo{
+  height: 500px;
+  width: 500px;
+  background-image: url(https://www.netlify.com/img/press/logos/logomark-light.png);
+
+}
+.home-text{
+  height: 350px;
+  width: 350px;
+font-size: 30px;
+top: 50px;
+}
+.home-all{
+display: flex;
+height: 500px;
+width: 100%;
+background-image: linear-gradient(#01d8fd, #e912a3);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+margin-top: 50px;
+}
+.home-about{
+height: 400px;
+width: 100%;
+margin: auto;
+text-align: center;
+margin-top: 100px;
+}
+.text-title{
+font-size: 80px;
+}
+.text-all{
+  font-size: 30px;
+}
+.about-btn{
+  width: 200px;
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  transition: all .4s;
+}
+.about-btn:hover{
+   box-shadow: 10px 5px 5px rgb(18, 20, 20);
+}
+.home-events{
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgb(16, 146, 155), rgb(161, 27, 132));
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+.events-title{
+  font-size: 50px;
+}
+.events-btn{
+  width: 200px;
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  transition: all .4s;
+  margin-top: 20px;
+  margin-left: 360px;
+  /* margin: auto; */
+}
+.events-btn:hover{
+  box-shadow: 10px 5px 5px rgb(18, 20, 20);
+}
+
+
+
+
+.box-contact{
+background: linear-gradient(45deg, #274fbd, #01d8fd, #14dfea, #3fc12a, #f9ac07, #5406d9, #e912a3, #7a3bca, #f9ac07, #7a3bca);
+    background-size: 1000% 1000%;
+   width: 75%;
+   height: 300px;
+    transition: height 1s linear;
+    animation: gradient-overflow 30s linear infinite;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: ivory;
+    padding-left: 30px;
+    margin: auto;
+    top: 50px;
+
+}
+/* @font-face{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  src: url(/src/environments/fonts/Odibee_Sans.zip);
+} 
+div{
+  font-family: initial;
+} */
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+  height: 2200px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
+.contact-btn{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    background-color: #000;
+    bottom: -25px;
+    right: 15px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    transition: all .4s;
+}
+.contact-btn:hover{
+  /* transform: scale(1.1); */
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.9); */
+  box-shadow: 10px 5px 5px rgb(18, 20, 20);
+}
+@keyframes gradient-overflow {
+    0% {
+      background-position: 0 50%; }
+    50% {
+      background-position: 100% 50%; }
+    100% {
+      background-position: 0 50%; } }
